@@ -1,0 +1,87 @@
+.creator {
+    position: absolute;
+    bottom: 28px;
+    font-size: 14px;
+}
+
+.container-dash {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    margin-top: 46px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 34px;
+    font-family: "Bangers", cursive;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header a svg {
+    margin-right: 2px;
+}
+
+.card-dash {
+    position: fixed;
+    width: 500px;
+
+    margin: 12% auto;
+    left: 0;
+    right: 0;
+
+    padding: 50px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.card-dash h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.text-box {
+    width: 100%;
+}
+
+.g-box {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.g-box p,
+.g-box a {
+    flex: 1;
+}
+
+.txt-left {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.txt-right {
+    font-weight: 600;
+    font-size: 16px;
+}
