@@ -1,0 +1,36 @@
+.container-home {
+    height: 100vh;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-home h1 {
+    font-size: 90px;
+    font-family: "Bangers", cursive;
+    margin-bottom: 85px;
+}
+
+.container-home a {
+    text-decoration: none;
+    height: 50px;
+    border: 1px solid var(--main-text);
+    border-radius: 25px;
+    padding: 14px 60px;
+    font-family: "Bangers", cursive;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.container-home a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.creator {
+    position: absolute;
+    bottom: 28px;
+    font-size: 14px;
+}
