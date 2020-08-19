@@ -1,6 +1,25 @@
+:root {
+    --main-text: #00174e;
+    --light-text: #e0edff;
+}
+
 * {
     margin: 0;
     padding: 0;
     outline: none;
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    color: var(--main-text);
+}
+
+body {
+    background: url("./Assets/bg.png") 100% 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#root {
+    width: 94%;
+    max-width: 1180px;
+    margin: 0 auto;
 }
