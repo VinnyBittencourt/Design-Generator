@@ -16,6 +16,7 @@ body {
     background: url("./Assets/bg.png") 100% 15%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0px -75px;
 }
 
 #root {
