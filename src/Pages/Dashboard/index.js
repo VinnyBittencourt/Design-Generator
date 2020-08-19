@@ -45,7 +45,7 @@ export default function Dashboard() {
                     </div>
                     <div className='g-box'>
                         <p className='txt-left'>Device:</p>
-                        <p className='txt-right'>Web</p>
+                        <p className='txt-right'>Web Browser</p>
                     </div>
                 </div>
             </div>
