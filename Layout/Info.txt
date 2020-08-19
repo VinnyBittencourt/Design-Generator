@@ -1,0 +1,19 @@
+Info dev:
+
+- Quantas páginas terão no site? 1.
+- Onde será hospedado? Heroku.
+- Quem fará a hospedagem? Vinny Bittencourt.
+- Qual o logo? Não tem.
+- Paleta de cores? Não tem.
+- Linguagem? React.
+- Qual o nivel de seriedade do layout? Fun.
+
+Website text-info:
+
+- Seriedade do site? Fun, Pro.
+- Font? Roboto (With Condensed), Montserrat, Raleway, Poppins.
+- Paleta de cores? https://coolors.co/generate.
+- Tecnologia? React default, React w/ Service Worker, React w/ PWA, React w/ Service Worker and PWA.
+- Tema? Tecnology, Learning/Teaching, E-commerce, Random Product,
+	Random Business WebSite, Hotsite about a current theme, Look for a theme one on Dribbble, Copy a Design from Dribbble.
+- Device? Web, Mobile.
