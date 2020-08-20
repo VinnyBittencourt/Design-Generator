@@ -1,10 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
 
 import "./styles.css";
 
 export default function Dashboard() {
+    const [theme, setTheme] = useState(setterTheme);
+
+    function setterTheme() {
+        const themesArr = [
+            "Technology",
+            "Learning/Teaching",
+            "E-commerce",
+            "Random Product",
+            "Random Business WebSite",
+            "Hotsite about a current theme",
+            "Look for a theme one on Dribbble",
+            "Copy a Design from Dribbble",
+        ];
+        const random = Math.floor(Math.random() * themesArr.length);
+        return themesArr[random];
+    }
+
+    useEffect(() => {
+        console.log(theme);
+    }, []);
+
     return (
         <div className='container-dash'>
             <header>
