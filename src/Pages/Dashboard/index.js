@@ -6,6 +6,10 @@ import "./styles.css";
 
 export default function Dashboard() {
     const [theme, setTheme] = useState(setterTheme);
+    const [serious, setSerious] = useState(setterSerious);
+    const [font, setFont] = useState(setterFont);
+    const [tech, setTech] = useState(setterTech);
+    const [device, setDevice] = useState(setterDevice);
 
     function setterTheme() {
         const themesArr = [
@@ -20,6 +24,35 @@ export default function Dashboard() {
         ];
         const random = Math.floor(Math.random() * themesArr.length);
         return themesArr[random];
+    }
+
+    function setterSerious() {
+        const seriousArr = ["Fun", "Pro"];
+        const random = Math.floor(Math.random() * seriousArr.length);
+        return seriousArr[random];
+    }
+
+    function setterFont() {
+        const fontArr = ["Roboto", "Montserrat", "Poppins", "Raleway"];
+        const random = Math.floor(Math.random() * fontArr.length);
+        return fontArr[random];
+    }
+
+    function setterTech() {
+        const techArr = [
+            "React default",
+            "React w/ Service Worker",
+            "React w/ PWA",
+            "React w/ Service Worker and PWA",
+        ];
+        const random = Math.floor(Math.random() * techArr.length);
+        return techArr[random];
+    }
+
+    function setterDevice() {
+        const deviceArr = ["Web", "Mobile"];
+        const random = Math.floor(Math.random() * deviceArr.length);
+        return deviceArr[random];
     }
 
     useEffect(() => {
@@ -40,15 +73,15 @@ export default function Dashboard() {
                 <div className='text-box'>
                     <div className='g-box'>
                         <p className='txt-left'>Theme:</p>
-                        <p className='txt-right'>Tecnology</p>
+                        <p className='txt-right'>{theme}</p>
                     </div>
                     <div className='g-box'>
                         <p className='txt-left'>Seriousness:</p>
-                        <p className='txt-right'>Fun</p>
+                        <p className='txt-right'>{serious}</p>
                     </div>
                     <div className='g-box'>
                         <p className='txt-left'>Font:</p>
-                        <p className='txt-right'>Roboto</p>
+                        <p className='txt-right'>{font}</p>
                     </div>
                     <div className='g-box'>
                         <p className='txt-left'>Palette:</p>
@@ -62,11 +95,11 @@ export default function Dashboard() {
                     </div>
                     <div className='g-box'>
                         <p className='txt-left'>Technology:</p>
-                        <p className='txt-right'>React default</p>
+                        <p className='txt-right'>{tech}</p>
                     </div>
                     <div className='g-box'>
                         <p className='txt-left'>Device:</p>
-                        <p className='txt-right'>Web Browser</p>
+                        <p className='txt-right'>{device}</p>
                     </div>
                 </div>
             </div>
