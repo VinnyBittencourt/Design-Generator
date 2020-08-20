@@ -19,7 +19,7 @@ export default function Dashboard() {
             "Random Product",
             "Random Business WebSite",
             "Hotsite about a current theme",
-            "Look for a theme one on Dribbble",
+            "Look for a theme on Dribbble",
             "Copy a Design from Dribbble",
         ];
         const random = Math.floor(Math.random() * themesArr.length);
@@ -88,6 +88,7 @@ export default function Dashboard() {
                         <a
                             href='https://coolors.co/generate'
                             target='_blank'
+                            rel='noopener noreferrer'
                             className='txt-right'
                         >
                             Click here
